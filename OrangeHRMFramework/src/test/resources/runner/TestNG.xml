@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testing1">
+    <test name="hello">
+        <classes>
+            <class name="com.automation.test.LoginTest">
+                <methods>
+                    <include name="verifyUserCanLoginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="com.automation.test.HomeTest"/>
+        </classes>
+    </test>
+</suite>

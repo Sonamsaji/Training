@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="suite1">
+    <groups>
+        <run>
+            <exclude name="smoke completed"></exclude>
+        </run>
+    </groups>
+    <test name="Question4">
+        <classes>
+            <class name="com.automation.testng.LoginTest"/>
+            <class name="com.automation.testng.HomeTest"/>
+            <class name="com.automation.testng.ProfileTest"/>
+        </classes>
+    </test>
+</suite>
